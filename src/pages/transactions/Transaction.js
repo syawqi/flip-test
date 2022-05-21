@@ -40,7 +40,7 @@ const Transaction = ({navigation}) => {
                 handleSort('sort');
               }}>
               <Editor.RadioButton isActive={sort === 'sort'} />
-              <Text>URUTKAN</Text>
+              <Text style={styles.normalText}>URUTKAN</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.modalSelector}
@@ -49,7 +49,7 @@ const Transaction = ({navigation}) => {
                 handleSort('byA');
               }}>
               <Editor.RadioButton isActive={sort === 'byA'} />
-              <Text>Nama A-Z</Text>
+              <Text style={styles.normalText}>Nama A-Z</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.modalSelector}
@@ -58,7 +58,7 @@ const Transaction = ({navigation}) => {
                 handleSort('byZ');
               }}>
               <Editor.RadioButton isActive={sort === 'byZ'} />
-              <Text>Nama Z-A</Text>
+              <Text style={styles.normalText}>Nama Z-A</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.modalSelector}
@@ -67,7 +67,7 @@ const Transaction = ({navigation}) => {
                 handleSort('lates');
               }}>
               <Editor.RadioButton isActive={sort === 'lates'} />
-              <Text>Tanggal Terbaru</Text>
+              <Text style={styles.normalText}>Tanggal Terbaru</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.modalSelector}
@@ -76,7 +76,7 @@ const Transaction = ({navigation}) => {
                 handleSort('oldest');
               }}>
               <Editor.RadioButton isActive={sort === 'oldest'} />
-              <Text>Tanggal Terlama</Text>
+              <Text style={styles.normalText}>Tanggal Terlama</Text>
             </TouchableOpacity>
           </View>
         </TouchableOpacity>
