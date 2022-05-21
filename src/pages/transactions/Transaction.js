@@ -93,7 +93,7 @@ const Transaction = ({navigation}) => {
         )}
         ListEmptyComponent={() => (
           <View style={styles.toCenter}>
-            <Text>Data Tidak Ditemukan</Text>
+            <Text style={styles.normalText}>Data Tidak Ditemukan</Text>
           </View>
         )}
         data={data}

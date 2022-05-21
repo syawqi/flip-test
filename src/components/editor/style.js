@@ -13,6 +13,7 @@ const styles = StyleSheet.create({
   input: {
     flex: 1,
     backgroundColor: '#fff',
+    color: '#000',
   },
   headerTextOrange: {
     color: '#EF684A',
