@@ -1,5 +1,7 @@
 import {StyleSheet} from 'react-native';
 
+import colors from '../../configs/colors';
+
 const styles = StyleSheet.create({
   row: {
     flexDirection: 'row',
@@ -8,15 +10,15 @@ const styles = StyleSheet.create({
     marginHorizontal: 10,
     paddingHorizontal: 8,
     borderRadius: 5,
-    backgroundColor: '#fff',
+    backgroundColor: colors.white,
   },
   input: {
     flex: 1,
-    backgroundColor: '#fff',
-    color: '#000',
+    backgroundColor: colors.white,
+    color: colors.black,
   },
   headerTextOrange: {
-    color: '#EF684A',
+    color: colors.orange,
     fontWeight: 'bold',
     fontSize: 14,
   },
@@ -24,7 +26,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     margin: 10,
     borderRadius: 7,
-    backgroundColor: '#ffff',
+    backgroundColor: colors.white,
   },
   content: {
     margin: 15,
@@ -42,13 +44,13 @@ const styles = StyleSheet.create({
   },
   innerRadioButton: {
     width: 8,
-    backgroundColor: '#EF684A',
+    backgroundColor: colors.orange,
     height: 8,
     borderRadius: 20,
   },
   radioButton: {
     width: 15,
-    borderColor: '#EF684A',
+    borderColor: colors.orange,
     borderRadius: 20,
     borderWidth: 1,
     marginRight: 10,

@@ -1,15 +1,17 @@
 import {StyleSheet} from 'react-native';
 
+import colors from '../../configs/colors';
+
 const styles = StyleSheet.create({
   body: {
-    backgroundColor: '#fff',
+    backgroundColor: colors.white,
     marginVertical: 10,
   },
   wrapper: {
     paddingHorizontal: 20,
     paddingVertical: 15,
     borderBottomWidth: 0.5,
-    borderColor: '#EDEDED',
+    borderColor: colors.divider,
     flexDirection: 'row',
     alignItems: 'center',
   },
@@ -28,34 +30,34 @@ const styles = StyleSheet.create({
     marginHorizontal: 4,
   },
   headerText: {
-    color: '#000',
+    color: colors.black,
     fontWeight: 'bold',
     fontSize: 14,
   },
   headerTextFlex1: {
-    color: '#000',
+    color: colors.black,
     fontWeight: 'bold',
     fontSize: 14,
     flex: 1,
   },
   headerTextOrange: {
-    color: '#EF684A',
+    color: colors.orange,
     fontWeight: 'bold',
     fontSize: 14,
   },
   normalText: {
-    color: '#000',
+    color: colors.black,
     fontSize: 14,
   },
   modalWrapper: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'rgba(13, 17, 23, 0.2)',
+    backgroundColor: colors.modalBackground,
   },
   modalContainer: {
     borderRadius: 8,
-    backgroundColor: '#fff',
+    backgroundColor: colors.white,
     padding: 30,
   },
   modalSelector: {

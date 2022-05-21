@@ -1,4 +1,5 @@
 import {StyleSheet} from 'react-native';
+import colors from '../../configs/colors';
 
 const styles = StyleSheet.create({
   row: {
@@ -10,20 +11,20 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     margin: 10,
     borderRadius: 7,
-    backgroundColor: '#ffff',
+    backgroundColor: colors.white,
   },
   content: {
     margin: 15,
     flex: 1,
   },
   dividerSuccess: {
-    backgroundColor: '#58B483',
+    backgroundColor: colors.green,
     width: 7,
     borderTopLeftRadius: 10,
     borderBottomLeftRadius: 10,
   },
   dividerPending: {
-    backgroundColor: '#F06C39',
+    backgroundColor: colors.orange,
     width: 7,
     borderTopLeftRadius: 10,
     borderBottomLeftRadius: 10,
@@ -33,32 +34,31 @@ const styles = StyleSheet.create({
     height: 5,
     borderRadius: 10,
     marginHorizontal: 4,
-    backgroundColor: '#000',
+    backgroundColor: colors.black,
   },
-
   label: {
     justifyContent: 'center',
     marginHorizontal: 10,
   },
   labelSuccessBackground: {
-    backgroundColor: '#58B483',
+    backgroundColor: colors.green,
     paddingVertical: 4,
     paddingHorizontal: 10,
     borderRadius: 5,
   },
   labelPendingBackground: {
     borderWidth: 1,
-    borderColor: '#F06C39',
+    borderColor: colors.orange,
     paddingVertical: 4,
     paddingHorizontal: 10,
     borderRadius: 5,
   },
   whiteFont: {
-    color: '#ffff',
+    color: colors.white,
     fontWeight: 'bold',
   },
   defaultColor: {
-    color: '#000',
+    color: colors.black,
     fontWeight: 'bold',
   },
   arrow: {
@@ -67,12 +67,12 @@ const styles = StyleSheet.create({
     marginHorizontal: 4,
   },
   headerText: {
-    color: '#000',
+    color: colors.black,
     fontWeight: 'bold',
     fontSize: 14,
   },
   normalText: {
-    color: '#000',
+    color: colors.black,
     fontSize: 14,
   },
 });
