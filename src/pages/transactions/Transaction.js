@@ -5,7 +5,6 @@ import {
   View,
   Modal,
   Text,
-  Image,
 } from 'react-native';
 import React, {useState} from 'react';
 import Component from '../../components';
